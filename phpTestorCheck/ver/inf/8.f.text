@@ -1,0 +1,72 @@
+
+*************************** 1. row ***************************
+   case: test_numbers
+   test: equals.2
+message: [equals.2] test (equals) is failed. 
+Operand: 30.3
+Value: 45.8
+
+*************************** 2. row ***************************
+   case: test_numbers
+   test: not_equals.1
+message: [not_equals.1] test (not_equals) is failed. 
+Operand: 30.3
+Value: 30.3
+
+*************************** 3. row ***************************
+   case: test_numbers
+   test: greater_than.2
+message: [greater_than.2] test (greater_than) is failed. 
+Operand: 43.6
+Value: 60.7
+
+*************************** 4. row ***************************
+   case: test_numbers
+   test: not_greater_than.1
+message: [not_greater_than.1] test (not_greater_than) is failed. 
+Operand: 43.6
+Value: 30.3
+
+*************************** 5. row ***************************
+   case: test_numbers
+   test: less_than.2
+message: [less_than.2] test (less_than) is failed. 
+Operand: 50.5
+Value: 40.8
+
+*************************** 6. row ***************************
+   case: test_numbers
+   test: not_less_than.1
+message: [not_less_than.1] test (not_less_than) is failed. 
+Operand: 30.5
+Value: 40.8
+
+*************************** 7. row ***************************
+   case: test_strings
+   test: not_same.1
+message: [not_same.1] test (not_same) is failed. 
+Operand: Hello world!
+Value: Hello world!
+
+*************************** 8. row ***************************
+   case: test_strings
+   test: same.2
+message: [same.2] test (same) is failed. 
+Operand: Hello world!
+Value: Hello community!
+
+*************************** 9. row ***************************
+   case: test_strings
+   test: contains.2
+message: [contains.2] test (contains) is failed. 
+Operand: Hello world!
+Value: community
+
+*************************** 10. row ***************************
+   case: test_strings
+   test: not_contains.1
+message: [not_contains.1] test (not_contains) is failed. 
+Operand: Hello world!
+Value: world
+
+

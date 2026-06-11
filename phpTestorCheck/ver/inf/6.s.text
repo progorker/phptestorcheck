@@ -1,0 +1,44 @@
+
+*************************** 1. row ***************************
+   case: test_numbers
+   test: equals.1
+message: [equals.1] test (equals) is success. 
+Operand: 30.3
+Value: 30.3
+
+*************************** 2. row ***************************
+   case: test_numbers
+   test: greater_than.1
+message: [greater_than.1] test (greater_than) is success. 
+Operand: 43.6
+Value: 30.3
+
+*************************** 3. row ***************************
+   case: test_numbers
+   test: not_equals.2
+message: [not_equals.2] test (not_equals) is success. 
+Operand: 30.3
+Value: 45.8
+
+*************************** 4. row ***************************
+   case: test_numbers
+   test: not_greater_than.2
+message: [not_greater_than.2] test (not_greater_than) is success. 
+Operand: 43.6
+Value: 60.7
+
+*************************** 5. row ***************************
+   case: test_numbers
+   test: less_than.1
+message: [less_than.1] test (less_than) is success. 
+Operand: 30.5
+Value: 40.8
+
+*************************** 6. row ***************************
+   case: test_numbers
+   test: not_less_than.2
+message: [not_less_than.2] test (not_less_than) is success. 
+Operand: 50.5
+Value: 40.8
+
+

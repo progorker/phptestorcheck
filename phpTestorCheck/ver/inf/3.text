@@ -1,0 +1,29 @@
+*************************** 1. row ***************************
+   case: global_error
+   test: exception.1
+message: [exception.1] test (error) is failed. 
+Message: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined function test_numbers() in /bioogr/postisk/sprints/001/019/phpTestorCheck/tests.php:21
+Stack trace:
+#0 /bioogr/postisk/sprints/001/019/phpTestorCheck/tests.php(24): g_run_tests()
+#1 {main}
+  thrown
+    [file] => /bioogr/postisk/sprints/001/019/phpTestorCheck/tests.php
+    [line] => 21
+)
+
+
+*************************** 1. row ***************************
+      version: 3
+       status: RED
+         code: phpTestorCheck
+           id: 2
+success_count: 0
+ failed_count: 1
+   test_count: 1
+   case_count: 1
+*************************** 1. row ***************************
+                        To re-print:: $) call api_testor_result('_token_', 2);
+To get source file of [a] test case:: $) call api_testor_source('_token_', 2, 'a');

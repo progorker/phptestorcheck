@@ -1,0 +1,9 @@
+
+*************************** 1. row ***************************
+   case: test_numbers
+   test: equals.1
+message: [equals.1] test (equals) is success. 
+Operand: 30.3
+Value: 30.3
+
+

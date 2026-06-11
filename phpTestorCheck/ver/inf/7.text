@@ -1,0 +1,71 @@
+*************************** 1. row ***************************
+   case: test_numbers
+   test: equals.2
+message: [equals.2] test (equals) is failed. 
+Operand: 30.3
+Value: 45.8
+
+*************************** 2. row ***************************
+   case: test_numbers
+   test: not_equals.1
+message: [not_equals.1] test (not_equals) is failed. 
+Operand: 30.3
+Value: 30.3
+
+*************************** 3. row ***************************
+   case: test_numbers
+   test: greater_than.2
+message: [greater_than.2] test (greater_than) is failed. 
+Operand: 43.6
+Value: 60.7
+
+*************************** 4. row ***************************
+   case: test_numbers
+   test: not_greater_than.1
+message: [not_greater_than.1] test (not_greater_than) is failed. 
+Operand: 43.6
+Value: 30.3
+
+*************************** 5. row ***************************
+   case: test_numbers
+   test: less_than.2
+message: [less_than.2] test (less_than) is failed. 
+Operand: 50.5
+Value: 40.8
+
+*************************** 6. row ***************************
+   case: test_numbers
+   test: not_less_than.1
+message: [not_less_than.1] test (not_less_than) is failed. 
+Operand: 30.5
+Value: 40.8
+
+*************************** 7. row ***************************
+   case: global_error
+   test: exception.1
+message: [exception.1] test (error) is failed. 
+Message: Array
+(
+    [type] => 1
+    [message] => Uncaught Error: Call to undefined function test_strings() in /bioogr/postisk/sprints/001/019/phpTestorCheck/tests.php:23
+Stack trace:
+#0 /bioogr/postisk/sprints/001/019/phpTestorCheck/tests.php(26): g_run_tests()
+#1 {main}
+  thrown
+    [file] => /bioogr/postisk/sprints/001/019/phpTestorCheck/tests.php
+    [line] => 23
+)
+
+
+*************************** 1. row ***************************
+      version: 7
+       status: RED
+         code: phpTestorCheck
+           id: 2
+success_count: 6
+ failed_count: 7
+   test_count: 13
+   case_count: 2
+*************************** 1. row ***************************
+                        To re-print:: $) call api_testor_result('_token_', 2);
+To get source file of [a] test case:: $) call api_testor_source('_token_', 2, 'a');
